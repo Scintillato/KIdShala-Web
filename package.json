@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "cd KidShalaClient && ng serve --open ",
+    "client": "cd KidShalaClient && ng serve --open",
+    "client-install": "cd KidShalaClient && npm install",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
